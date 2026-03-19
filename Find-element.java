@@ -1,0 +1,15 @@
+// Given an array arr of integers and an index key(0-based index). Your task is to return the element present at the index key in the array.
+
+// Examples:
+
+// Input: key = 2 , arr = [10, 20, 30, 40, 50]
+// Output: 30
+// Explanation: The value of arr[2] is 30 .
+
+// User function Template for Java
+class Solution {
+    public static int findElementAtIndex(int key, int[] arr) {
+        // code here
+    return arr[key];
+    }
+}
