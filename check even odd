@@ -7,10 +7,9 @@ class Solution {
             if(arr[i]%2==0){
                 even++;
             }
-            if(arr[i]%2=!0){
+            if(arr[i]%2!=0){
                 odd++;
             }
-        }return even;
-        return odd;
+        }return new int[]{odd,even};
     }
 }
