@@ -1,0 +1,25 @@
+// Given an array arr[]. Your task is to find the minimum and maximum elements in the array.
+
+  class Solution {
+    public ArrayList<Integer> getMinMax(int[] arr) {
+        // code Here
+        ArrayList<Integer> result = new ArrayList<>();
+         int min = arr[0];
+        int max = arr[0];
+        
+        for (int num : arr) {
+            if (num < min) {
+                min = num;
+            }
+            if (num > max) {
+                max = num;
+            }
+        }
+        
+        result.add(min);
+        result.add(max);
+        
+        return result;
+        
+    }
+}
